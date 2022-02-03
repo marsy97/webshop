@@ -3,9 +3,11 @@ import styles from "./product.module.scss";
 
 function product(props) {
 
+    const items=[]
+
 function push(){
-    console.log(item)
-    }
+    items.push(item)
+console.log(items)}
     
 
     const item={
